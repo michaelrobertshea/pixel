@@ -70,3 +70,13 @@ You will know the board is ready to accept the new build once the onboard led bl
 
 For questions about how this all works check out my presentation here
 [My awesome presentation](https://drive.google.com/file/d/1c3NWIdD6CYc-RdFBa_h5MdjtiGycR3Mc/view?usp=sharing)
+
+References:
+For this Project I used Fabien-Chouteau's TinyFPGA repository which had a template for how to light individual pixels on a 6 light display. I modified his original 
+neopixel.vh file to account for 24 pixels 
+[His repo](https://github.com/Fabien-Chouteau/TinyFPGA-BX)
+/
+
+
+
+
