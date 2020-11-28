@@ -74,8 +74,9 @@ For questions about how this all works check out my presentation here
 References:
 For this Project I used Fabien-Chouteau's TinyFPGA repository which had a template for how to light individual pixels on a 6 light display. I modified his original 
 neopixel.vh file to account for 24 pixels 
-[His repo](https://github.com/Fabien-Chouteau/TinyFPGA-BX)
-/
+
+<br />[His repo](https://github.com/Fabien-Chouteau/TinyFPGA-BX)
+
 
 
 
