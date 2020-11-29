@@ -76,6 +76,9 @@ neopixel.vh file to account for 24 pixels
 
 <br />[His repo](https://github.com/Fabien-Chouteau/TinyFPGA-BX)
 
+Presentation:
+
+[My presentation](https://youtu.be/ByN2_-S3wXI)
 
 
 
