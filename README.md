@@ -12,7 +12,7 @@ the length of the strip in the code
 
 ![alt text](https://www.distrelec.biz/Web/WebShopImages/landscape_large/5-/01/Adafruit-1586-30091145-01.jpg)
 
-The startup guide for this board was extremely helpful. Here is a link too it.
+The startup guide for this board was extremely helpful. Here is a link to it.
 
 https://tinyfpga.com/bx/guide.html
 
@@ -46,7 +46,7 @@ You can download the test project here from TinyFPGA
 https://github.com/tinyfpga/TinyFPGA-BX/archive/master.zip 
 this can be used by copying the apio_template into your working folder in atom if you dont have one yet create one.
 
-This test project is where I got my pins.pcf file that i made some minor changes too.
+This test project is where I got my pins.pcf file that I made some minor changes to.
 
 once your board is plugged in select the upload button and atom will automatically build and upload your design. 
 
@@ -69,13 +69,14 @@ If nothing happens when you build and load you may have to reset your tinyfpga y
 You will know the board is ready to accept the new build once the onboard led blinks rapidly. This means the bootloader has been activated. 
 
 For questions about how this all works check out my presentation here
-[My awesome presentation](https://drive.google.com/file/d/1c3NWIdD6CYc-RdFBa_h5MdjtiGycR3Mc/view?usp=sharing)
+[My pixel presentation](https://drive.google.com/file/d/1c3NWIdD6CYc-RdFBa_h5MdjtiGycR3Mc/view?usp=sharing)
 
 References:
 For this Project I used Fabien-Chouteau's TinyFPGA repository which had a template for how to light individual pixels on a 6 light display. I modified his original 
 neopixel.vh file to account for 24 pixels 
 
 <br />[His repo](https://github.com/Fabien-Chouteau/TinyFPGA-BX)
+
 
 
 
