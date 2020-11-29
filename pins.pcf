@@ -1,4 +1,10 @@
-
+/*
+Michael Shea
+Independent Study for COMP300 Fall 2020
+Dr. Pateros
+NeoPixel Illumination With TinyBX Board
+11-29-2020
+*/
 
 # Left side of board
 set_io --warn-no-port PIN_1 A2

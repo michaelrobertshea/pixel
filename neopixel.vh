@@ -1,4 +1,11 @@
-module makepixel(clk_16MHz, dout, data_in, start_tx, busy);
+/*
+Michael Shea
+Independent Study for COMP300 Fall 2020
+Dr. Pateros
+NeoPixel Illumination With TinyBX Board
+11-29-2020
+*/
+module neopixel(clk_16MHz, dout, data_in, start_tx, busy);
 
     parameter nbr_pixels = 1;
 
