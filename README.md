@@ -1,4 +1,4 @@
-# pixel
+# Pixel On TINYFPGA BX
 This project is in order to illuminate a string of Neopixels with a TinyFPGA board. This project allows the pixels to be illuminated with independent color from the other pixels
 
 The board I will be using is The TinyFPGA bx board. I used this one from [sparkfun](https://www.sparkfun.com/products/14829). However, any TinyFPGA with enough headers will work.
