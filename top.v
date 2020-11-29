@@ -67,7 +67,7 @@ module top (
     );
 
 
-    //parameter  maxloops defines how many times if n is changed then it will shorten or lengthen how long this will run
+    //parameter  maxloops defines how many times if it is changed then it will shorten or lengthen how long this will run
 
     localparam Maxloops = 18;
     reg [Maxloops:0] counter = 0;
