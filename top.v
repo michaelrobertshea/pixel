@@ -67,14 +67,15 @@ module top (
     );
 
 
-    //parameter  maxloops defines how many times if it is changed then it will shorten or lengthen how long this will run
+    /*parameter  speeds either speeds up or slows down this program. the lower this value the faster it will go. 
+    the slowdown allows for the pixel to turn off and reset between turns
+    */
 
-    localparam Maxloops = 18;
-    reg [Maxloops:0] counter = 0;
+    localparam Speed = 18;
+    reg [Speed:0] counter = 0;
     always @(posedge CLK)
       counter <= counter + 1;
-
-    assign start_tx = counter[N];
+    assign start_tx = counter[Speed];
 
     always @ (negedge start_tx) begin
         if (r_data < 100) begin
